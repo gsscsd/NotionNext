@@ -22,7 +22,7 @@ export default function LogoBar(props) {
                 <i className={`fa-solid ${pageNavVisible ? 'fa-align-justify' : 'fa-indent'}`}></i>
             </div>
             <Link href={`/${siteConfig('GITBOOK_INDEX_PAGE', '', CONFIG)}`} className='flex text-md md:text-xl dark:text-gray-200'>
-                <LazyImage src={siteInfo?.icon} width={24} height={24} alt={siteConfig('AUTHOR')} className='mr-2 hidden md:block' />
+                <LazyImage src={siteInfo?.icon} width={30} height={30} alt={siteConfig('AUTHOR')} className='mr-2 hidden md:block' />
                 {siteConfig('TITLE')}
             </Link>
         </div>
